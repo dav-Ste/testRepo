@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 @Library('my-build-library')
-def git = new de.mare.ci.jenkins.Git()
+def git = new ds.ci.jenkins.Git()
 
 
 node {
