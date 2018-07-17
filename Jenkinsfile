@@ -4,7 +4,7 @@ def git = new ds.Git()
 
 
 node {
-  if (git.isDevelopBranch()){
+  if (git.IsDevBranch()){
     echo "*************** DEV BRANCH *******************"
   }
   else
